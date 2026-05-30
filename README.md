@@ -22,3 +22,8 @@ A 3-tier microservice application deployed using Docker and Kubernetes.
 - Kubernetes (Minikube)
 - GitHub Actions CI/CD
 - DockerHub
+
+## Kubernetes Services
+- MySQL: ClusterIP (internal only)
+- Flask API: ClusterIP (internal only)
+- Nginx: NodePort 30080 (external access)
